@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="theme" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.habariproject.org/pluggable/0.8">
+	<name>Namibia</name>
+	<license url="http://creativecommons.org/licenses/by-sa/3.0/deed.de">Creative Commons BY-SA 3.0</license>
+	<author url="http://konzertheld.de/">Konzertheld</author>
+	<author url="http://i-cons.ch/">i-cons.ch</author>
+	<version>1.0</version>
+	<description><![CDATA[]]></description>
+	<template_engine>rawphpengine</template_engine>
+	<copyright>2013</copyright>
+	<areas>
+		<area name="leftsidebar">
+			<description><![CDATA[Sidebar]]></description>
+		</area>
+		<area name="rightsidebar">
+			<description><![CDATA[Sidebar]]></description>
+		</area>
+	</areas>
+	<provides>
+		<feature url="http://wiki.habariproject.org/en/feature/area">area</feature>
+	</provides>
+</pluggable>
