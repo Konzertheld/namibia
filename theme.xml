@@ -19,4 +19,5 @@
 	<provides>
 		<feature url="http://wiki.habariproject.org/en/feature/area">area</feature>
 	</provides>
+	<guid>743626c6-f36b-4ee5-a5d1-ce2eea3d2661</guid>
 </pluggable>
