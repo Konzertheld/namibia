@@ -24,8 +24,7 @@ html {
 }
 
 body {
-  background: #FEF8E8;
-	padding: 0;
+  padding: 0;
   font-family: Verdana,Arial,Helvetica,sans-serif;
   font-size: 75.00%; 
   color: #444;  
@@ -127,38 +126,6 @@ h6 { font-size: 116.67%; font-style:italic }
 }
 
 
-/* 
-	Setzt die Hintergrundbilder für 9 Teilbereiche
-*/
-
-.bg01 {
-	background:url(images/bg_01.png) top left no-repeat;
-}
-.bg02 {
-	background:url(images/bg_02.png) top left repeat-x;
-}
-.bg03 {
-	background:url(images/bg_03.png) top right no-repeat;
-}
-.bg04 {
-	background:url(images/bg_04.png) bottom left repeat-y;
-}
-.bg05 {
-	background:url(images/bg_05.png) top left repeat;
-}
-.bg06 {
-	background:url(images/bg_06.png) bottom right repeat-y;
-}
-.bg07 {
-	background:url(images/bg_07.png) bottom left no-repeat;
-}
-.bg08 {
-	background:url(images/bg_08.png) bottom left repeat-x;
-}
-.bg09 {
-	background:url(images/bg_09.png) bottom right no-repeat;
-}
-
 .bglogo {
 	background: url(../../files/logo_ag100px.png) top right no-repeat;
 }
@@ -167,15 +134,6 @@ h6 { font-size: 116.67%; font-style:italic }
 .menu_links {
 	margin-top: 300px;
 	margin-left: 0;
-}
-.menu_links_01 {
-	background:url(images/menu_links_01.png) top left no-repeat;
-}
-.menu_links_02 {
-	background:url(images/menu_links_02.png) top left repeat-y;
-}
-.menu_links_03 {
-	background:url(images/menu_links_03.png) bottom left no-repeat;
 }
 .menu_links_content {
 	width:190px;
@@ -196,15 +154,6 @@ h6 { font-size: 116.67%; font-style:italic }
 /* Menu Rechts */
 .menu_rechts {
 	margin-top: 140px;
-}
-.menu_rechts_01 {
-	background:url(images/menu_rechts_01.png) top left no-repeat;
-}
-.menu_rechts_02 {
-	background:url(images/menu_rechts_02.png) top left repeat-y;
-}
-.menu_rechts_03 {
-	background:url(images/menu_rechts_03.png) bottom left no-repeat;
 }
 .menu_rechts_content {
 	width:180px;
@@ -429,7 +378,7 @@ a:active {color:#0000FF; text-decoration:underline;}
 fieldset, img { border: 0 solid; }
 
 #page{ 
-	background-color: #FFE7B2;
+	background-color: #EDF1F8;
 }
 
 #page_margins {
@@ -590,31 +539,28 @@ table.pollstableborder td {
 	Setzt die Hintergrundbilder für 9 Teilbereiche
 */
 
-.bg01 {
+.bg_corner {
 	background:url(images/blue/bg_01.png) top left no-repeat;
 }
-.bg02 {
+.bg_top {
 	background:url(images/blue/bg_02.png) top left repeat-x;
 }
-.bg03 {
+.bg_topright {
 	background:url(images/blue/bg_03.png) top right no-repeat;
 }
-.bg04 {
+.bg_left {
 	background:url(images/blue/bg_04.png) bottom left repeat-y;
 }
-.bg05 {
-	background:url(images/blue/bg_05.png) top left repeat;
-}
-.bg06 {
+.bg_right {
 	background:url(images/blue/bg_06.png) bottom right repeat-y;
 }
-.bg07 {
+.bg_bottomleft {
 	background:url(images/blue/bg_07.png) bottom left no-repeat;
 }
-.bg08 {
+.bg_bottom {
 	background:url(images/blue/bg_08.png) bottom left repeat-x;
 }
-.bg09 {
+.bg_bottomright {
 	background:url(images/blue/bg_09.png) bottom right no-repeat;
 }
 
@@ -642,7 +588,6 @@ table.pollstableborder td {
 }
 
 body { background-color: #A3BBDD; }
-#page{ background-color: #A3BBDD; }
 table.contenttoc { background: #D1DDEE; }
 
 

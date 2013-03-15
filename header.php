@@ -10,16 +10,7 @@
 </head>
 
 <body>
-<div >
 	<div id="page">
-		
-	<!-- creating the Border, 10 DIV  -->		
-	<div class="bg05"><div class="bg02"><div class="bg04"><div class="bg06"><div class="bg08">	
-	<div class="corner">
-	<div class="bg01"><div class="bg03"><div class="bglogo"><div class="bg07"><div class="bg09">
-	<!-- / creating the Border, 10 DIV  -->		
-		
-		
-		<!-- begin: main content area #main -->
-		<div id="main">
-		<?php $theme->display('sidebars'); ?>
+		<div class="bg_top"><div class="bg_left"><div class="corner"><div class="bg_corner"><div class="bg_right"><div class="bg_topright"><div class="bglogo"><div class="bg_bottom"><div class="bg_bottomleft"><div class="bg_bottomright">
+			<div id="main">
+				<?php $theme->display('sidebars'); ?>
